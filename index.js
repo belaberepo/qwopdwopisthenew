@@ -111,7 +111,7 @@ function play(guild, song) {
 	}
 
 	const dispatcher = serverQueue.connection.playStream(ytdl(song.url))
-		.on(end, () => {
+		.on('end', () => {
 			console.log('Music ended!');
 			serverQueue.songs.shift();
 			play(guild, serverQueue.songs[0]);
