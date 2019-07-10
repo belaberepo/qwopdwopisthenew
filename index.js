@@ -121,5 +121,4 @@ function play(guild, song) {
 	dispatcher.setVolumeLogarithmic(serverQueue.volume / 5);
 }
 
-client.login(process.env.BOT_TOKEN
-	);
+client.login("NTk4MjkyODg5NTgzNDg0OTUx.XSZg9A.5Bv5Zw2NkGpgEIJCNU7Mo_Zft3Q");
