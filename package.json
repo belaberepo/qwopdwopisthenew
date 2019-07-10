@@ -1,0 +1,25 @@
+{
+  "name": "undecimusmusic",
+  "version": "1.0.0",
+  "description": "bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belaberepo/Undecimus-Music.git"
+  },
+  "author": "undecimus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/belaberepo/Undecimus-Music/issues"
+  },
+  "homepage": "https://github.com/belaberepo/Undecimus-Music#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "ffmpeg-binaries": "^4.0.0",
+    "opusscript": "0.0.6",
+    "ytdl-core": "^0.29.3"
+  }
+}
